@@ -1,0 +1,37 @@
+.first-entry{
+    box-shadow: 5px 5px 5px rgb(228, 227, 227),
+    -5px -3px 5px rgb(224, 224, 224);
+}
+.name{
+    box-shadow: 5px 5px 5px rgb(228, 227, 227),
+    -5px -3px 5px rgb(224, 224, 224);
+}
+.list-group{
+    box-shadow: 5px 5px 5px rgb(228, 227, 227),
+    -5px -3px 5px rgb(224, 224, 224);
+}
+.tags{
+    box-shadow: 5px 5px 5px rgb(228, 227, 227),
+    -5px -3px 5px rgb(224, 224, 224);
+}
+
+@media (min-width:768px) {
+    .container-fluid{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container-1{
+        width: 63%;
+    }
+    .container-2{
+        width: 35%;
+    }
+    .tags{
+        display: block;
+    }
+    .button{
+        display: inline-flex;
+        width: 30%;
+    }
+    
+}
